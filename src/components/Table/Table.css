@@ -1,0 +1,44 @@
+input {
+  width: 50px;
+}
+table {
+  width: 100%;
+}
+table tr td {
+  border: 1px black solid;
+  margin: 5px 2px;
+  width: 100px;
+}
+
+th {
+  background: rgba(245, 215, 179, 0.81);
+  border: rgba(44, 67, 112, 0.82) 1px solid;
+  width: 100px;
+}
+td {
+  margin: 10px;
+  text-align: center;
+}
+.name {
+  background: rgba(127, 255, 212, 0.3);
+}
+
+.unassigned {
+  background: rgba(203, 203, 188, 0.27);
+}
+.unassigned_input {
+  visibility: hidden;
+}
+.green {
+  background: rgba(0, 100, 0, 0.42);
+}
+
+.red {
+  background: rgba(225, 56, 56, 0.37);
+}
+.orange {
+  background: rgba(252, 162, 0, 0.37);
+}
+.total {
+  background: rgba(150, 154, 211, 0.27);
+}

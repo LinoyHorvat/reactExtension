@@ -1,0 +1,41 @@
+.App {
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.selects-div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 7px;
+  /* background-color: rgba(235, 225, 225, 0.767);
+  background-color: rgb(233, 225, 225); */
+  background-color: rgb(248, 240, 240);
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid grey;
+}
+select {
+  width: 100%;
+  margin: 0 3px;
+}
+select:hover {
+  cursor: pointer;
+}
+label {
+  transform: translateX(7px);
+  background: inherit;
+  font-weight: bold;
+}
